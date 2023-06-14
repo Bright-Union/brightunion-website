@@ -1,0 +1,102 @@
+:root {
+  --bs-body-bg: #1c1c1c;
+  --bs-body-font-family: "Montserrat";
+}
+
+/* Navbar */
+.navbar {
+  --bs-navbar-color: $white;
+  --bs-navbar-hover-color: #1b1a2f;
+  --bs-navbar-disabled-color: #1b1a2f;
+  --bs-navbar-active-color: #1b1a2f;
+  --bs-navbar-brand-font-size: 1.125rem;
+  --bs-navbar-brand-color: #1b1a2f;
+  --bs-navbar-brand-hover-color: #1b1a2f;
+}
+
+
+.navbar .nav-link, .navbar .navbar-brand {
+  color: white;
+  font-size: .875rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: rgb(101, 45, 255);
+}
+
+/* Typography */
+.h1, .h2, .h3, h1, h2, h3 {
+  font-family: "Montserrat",sans-serif;
+}
+
+p {
+  font-weight: 500;
+}
+
+.bigH1 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -2px;
+}
+
+/* Button */
+
+.btn {
+  --bs-btn-font-family: "Montserrat";
+  --bs-btn-font-size: 0.75rem;
+  --bs-btn-font-weight: 700;
+}
+
+.bg-gradient-primary {
+  background-image: linear-gradient(195deg, #652dff 0, #5224d0 100%);
+}
+
+.btn-primary,
+.btn.bg-gradient-primary {
+  box-shadow: 0 3px 3px 0 rgb(38, 15, 103), 0 3px 1px -2px rgb(38, 15, 103), 0 1px 5px 0 rgb(38, 15, 103);
+}
+
+.btn-primary:hover,
+.btn.bg-gradient-primary:hover {
+  background-color: #652DFFFF;
+  border-color: #652DFFFF;
+  box-shadow: 0 14px 26px -12px rgb(58, 23, 154), 0 4px 23px 0 rgb(38, 15, 103), 0 8px 10px -5px rgb(38, 15, 103);
+}
+
+.btn-primary .btn.bg-outline-primary,
+.btn.bg-gradient-primary .btn.bg-outline-primary {
+  border: 1px solid #652DFFFF;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle,
+.btn.bg-gradient-primary:not(:disabled):not(.disabled).active,
+.btn.bg-gradient-primary:not(:disabled):not(.disabled):active,
+.show>.btn.bg-gradient-primary.dropdown-toggle {
+  color: color-yiq(#652DFFFF);
+  background-color: #652DFFFF;
+}
+
+.btn-primary.focus,
+.btn-primary:focus,
+.btn.bg-gradient-primary.focus,
+.btn.bg-gradient-primary:focus {
+  color: #fff;
+}
+
+.btn-outline-primary {
+  box-shadow: none;
+}
+
+.btn-outline-primary:hover:not(.active) {
+  background-color: transparent;
+  opacity: .75;
+  box-shadow: none;
+  color: #652DFFFF;
+}

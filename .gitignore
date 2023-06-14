@@ -1,2 +1,4 @@
 /.idea/
 /brightunion-website.iml
+/node_modules/
+/package-lock.json
