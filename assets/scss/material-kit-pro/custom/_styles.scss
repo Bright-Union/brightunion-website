@@ -1,6 +1,9 @@
 :root {
-  --bs-body-bg: #1c1c1c;
+  --bs-body-bg: #1b1a2f;
   --bs-body-font-family: "Montserrat";
+  --bs-heading-color: white;
+  --bs-link-hover-color: #652DFFFF;
+  --bs-link-hover-color-rgb: rgb(101, 45, 255);
 }
 
 /* Navbar */
@@ -29,7 +32,20 @@
 
 /* Typography */
 .h1, .h2, .h3, h1, h2, h3 {
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: var(--bs-link-hover-color-rgb);
+}
+
+.text-success {
+  color: lime !important;
 }
 
 p {
@@ -92,6 +108,8 @@ p {
 
 .btn-outline-primary {
   box-shadow: none;
+  --bs-btn-color: white;
+  --bs-btn-border-color: #652DFFFF;
 }
 
 .btn-outline-primary:hover:not(.active) {
@@ -99,4 +117,5 @@ p {
   opacity: .75;
   box-shadow: none;
   color: #652DFFFF;
+  border-color: #652DFFFF;
 }
