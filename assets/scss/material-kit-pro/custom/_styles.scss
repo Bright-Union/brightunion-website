@@ -15,6 +15,9 @@
   --bs-navbar-brand-font-size: 1.125rem;
   --bs-navbar-brand-color: #1b1a2f;
   --bs-navbar-brand-hover-color: #1b1a2f;
+  /*z-index: 10;
+  position: absolute;
+  width: 100%;*/
 }
 
 
@@ -75,6 +78,19 @@ p {
 .top-border {
   border-top-style: dashed;
   border-top-color: white;
+}
+
+.left-border {
+  border-left-style: solid;
+  border-left-color: white;
+}
+
+.max-height-120 {
+  max-height: 120px !important;
+}
+
+.max-height-vh-8 {
+  max-height: 8vh !important;
 }
 
 /* Button */
