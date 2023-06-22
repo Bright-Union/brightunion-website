@@ -57,7 +57,7 @@ p {
   font-weight: 700;
   font-size: 60px;
   line-height: 60px;
-  letter-spacing: -2px;
+  letter-spacing: -3px;
 }
 
 .footer-text {
@@ -70,6 +70,11 @@ p {
 
 .text-highlight {
   color: rgb(255, 0, 199) !important;
+}
+
+.top-border {
+  border-top-style: dashed;
+  border-top-color: white;
 }
 
 /* Button */
