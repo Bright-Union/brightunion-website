@@ -58,9 +58,14 @@ p {
 .bigH1 {
   font-family: Montserrat;
   font-weight: 700;
-  font-size: 60px;
   line-height: 60px;
   letter-spacing: -3px;
+}
+
+@media (min-width: 768px) {
+  .bigH1 {
+    font-size: 60px;
+  }
 }
 
 .footer-text {
