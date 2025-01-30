@@ -1,6 +1,6 @@
 :root {
-  --bs-body-bg: #1b1a2f;
-  --bs-body-font-family: "Montserrat";
+  --bs-body-bg: #000000;
+  --bs-body-font-family: "Oxanium";
   --bs-heading-color: white;
   --bs-link-hover-color: #652DFFFF;
   --bs-link-hover-color-rgb: rgb(101, 45, 255);
@@ -24,7 +24,7 @@
 .navbar .nav-link, .navbar .navbar-brand {
   color: white;
   font-size: .875rem;
-  font-family: "Montserrat";
+  font-family: "Oxanium";
   font-weight: 600;
 }
 
@@ -35,7 +35,7 @@
 
 /* Typography */
 .h1, .h2, .h3, h1, h2, h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oxanium", serif;
   color: white;
 }
 
@@ -56,7 +56,7 @@ p {
 }
 
 .bigH1 {
-  font-family: Montserrat;
+  font-family: "Oxanium", serif;
   font-weight: 700;
   line-height: 60px;
   letter-spacing: -3px;
@@ -109,7 +109,7 @@ p {
 /* Button */
 
 .btn {
-  --bs-btn-font-family: "Montserrat";
+  --bs-btn-font-family: "Oxanium";
   --bs-btn-font-size: 0.75rem;
   --bs-btn-font-weight: 700;
 }
