@@ -41,13 +41,13 @@
     <!-- Navbar Dark -->
     <nav class="navbar navbar-expand-lg navbar-dark z-index-3 py-3">
         <div class="container">
-            <a class="navbar-brand text-white" href="index.html" rel="tooltip" data-placement="bottom">
+            <a class="navbar-brand text-white" style="margin-right:0px" href="index.html" rel="tooltip" data-placement="bottom">
                 <div class="ms-auto">
                     <img src="./assets/img/logo.svg" class="w-70 max-height-125 z-index-2" loading="lazy">
                 </div>
             </a>
             <a href="https://app.brightunion.io/"
-               class="btn btn-sm  bg-gradient-primary  btn-round mb-0 ms-auto d-lg-none d-block">Launch App</a>
+               class="btn btn-sm  bg-gradient-primary  btn-round mb-0 ms-auto d-lg-none d-block">Open App</a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
                     aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon mt-2">
@@ -101,7 +101,7 @@
                 <ul class="navbar-nav d-lg-block d-none">
                     <li class="nav-item">
                         <a href="https://app.brightunion.io/"
-                           class="btn btn-lg  bg-gradient-primary  mb-0 me-1" role="button">Launch App</a>
+                           class="btn btn-lg  bg-gradient-primary  mb-0 me-1" role="button">Open App</a>
                     </li>
                 </ul>
             </div>
@@ -111,11 +111,11 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="page-header min-vh-75" style="background-image: url('./assets/img/bg10.jpg');" loading="lazy">
+                <div class="page-header min-vh-75" style="background-image: url('./assets/img/Knowledge hub abstract cubes.jpg');" loading="lazy">
                     <span class="mask bg-gradient-dark"></span>
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-8 my-auto px-8">
+                            <div class="col-lg-8 my-auto px-lg-8 px-6">
                                 <h4 class="text-white mb-0 fadeIn1 fadeInBottom">DeFi Insurance</h4>
                                 <h1 class="text-white fadeIn2 fadeInBottom">A Safety Net for the Decentralized Finance World</h1>
                                 <p class="lead text-white opacity-8 fadeIn3 fadeInBottom">Decentralized Finance (DeFi) is rapidly transforming how
@@ -132,11 +132,11 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="page-header min-vh-75" style="background-image: url('./assets/img/bg10.jpg');" loading="lazy">
+                <div class="page-header min-vh-75" style="background-image: url('./assets/img/Knowledge hub hacker glasses.jpg');" loading="lazy">
                     <span class="mask bg-gradient-dark"></span>
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-8 my-auto px-8">
+                            <div class="col-lg-8 my-auto px-lg-8 px-6">
                                 <h4 class="text-white mb-0 fadeIn1 fadeInBottom">DeFi Insurance</h4>
                                 <h1 class="text-white fadeIn2 fadeInBottom">Global DeFi risk chain</h1>
                                 <p class="lead text-white opacity-8 fadeIn3 fadeInBottom">The infrastructure to orchestrate the DeFi risk management
@@ -151,11 +151,12 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="page-header min-vh-75" style="background-image: url('./assets/img/bg10.jpg');" loading="lazy">
+                <div class="page-header min-vh-75" style="background-image: url('./assets/img/Knowledge hub image hacker typing.jpg');"
+                     loading="lazy">
                     <span class="mask bg-gradient-dark"></span>
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-8 my-auto px-8">
+                            <div class="col-lg-8 my-auto px-lg-8 px-6">
                                 <h4 class="text-white mb-0 fadeIn1 fadeInBottom">Hacks</h4>
                                 <h1 class="text-white fadeIn2 fadeInBottom">2024 DeFi Hacks Report</h1>
                                 <p class="lead text-white opacity-8 fadeIn3 fadeInBottom">
@@ -193,19 +194,23 @@
                         <div class="col-lg-4 col-md-4">
                             <div class="card-image position-relative border-radius-lg">
                                 <div class="blur-shadow-image">
-                                    <img class="img border-radius-lg" src="./assets/img/blog-post-3.jpg" alt="architecture"
+                                    <img class="img border-radius-lg" src="./assets/img/Knowledge hub image hacker typing.jpg" alt="architecture"
                                          loading="lazy">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-7 col-md-7 my-sm-auto mt-3 ms-sm-3">
                             <h4>
-                                <a href="javascript:;" class="text-dark">2024 DeFi Hacks Report</a>
+                                <a href="blog/hacks-report.html" class="">2024 DeFi Hacks Report</a>
                             </h4>
-                            <p>
+                            <p class="text-white text-lighter">
                                 Cryptocurrency hacking remains a significant issue, with several years in the past decade seeing over a
-                                billion dollars in crypto stolen <a href="blog/hacks-report.html"> Read More </a>
+                                billion dollars in crypto stolen
                             </p>
+                            <button class="btn btn-sm btn-outline-secondary" type="button" name="button">
+                                <a href="blog/hacks-report.html" class="icon-move-right text-sm">Read more
+                                </a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -214,18 +219,23 @@
                         <div class="col-lg-4 col-md-4">
                             <div class="card-image position-relative border-radius-lg">
                                 <div class="blur-shadow-image">
-                                    <img class="img border-radius-lg" src="./assets/img/blog-post-3.jpg" alt="estate" loading="lazy">
+                                    <img class="img border-radius-lg" src="./assets/img/Knowledge%20hub%20hacker%20glasses.jpg" alt="estate"
+                                         loading="lazy">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-7 col-md-7 my-sm-auto mt-3 ms-sm-3">
                             <h4>
-                                <a href="javascript:;" class="text-dark">DeFi Insurance: Global Risk Chain</a>
+                                <a href="blog/risk-chain.html" class="">DeFi Insurance: Global Risk Chain</a>
                             </h4>
-                            <p>
+                            <p class="text-white text-lighter">
                                 The infrastructure to orchestrate the DeFi risk management across all existing
-                                and future chains and rollups... <a href="blog/risk-chain.html"> Read More </a>
+                                and future chains and rollups...
                             </p>
+                            <button class="btn btn-sm btn-outline-secondary" type="button" name="button">
+                                <a href="blog/risk-chain.html" class="icon-move-right text-sm">Read more
+                                </a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -234,20 +244,24 @@
                         <div class="col-lg-4 col-md-4">
                             <div class="card-image position-relative border-radius-lg">
                                 <div class="blur-shadow-image">
-                                    <img class="img border-radius-lg" src="./assets/img/blog-post-3.jpg" alt="buildings" loading="lazy">
+                                    <img class="img border-radius-lg" src="./assets/img/Knowledge%20hub%20abstract%20cubes.jpg" alt="buildings"
+                                         loading="lazy">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-7 col-md-7 my-sm-auto mt-3 ms-sm-3">
                             <h4>
-                                <a href="javascript:;" class="text-dark">DeFi Insurance</a>
+                                <a href="blog/defi-insurance.html" class="">DeFi Insurance</a>
                             </h4>
-                            <p>
+                            <p class="text-white text-lighter">
                                 Decentralized Finance (DeFi) is rapidly transforming how
                                 people exchange money.
-                                However, the innovative landscape of DeFi presents unique challenges, particularly.. <a
-                                    href="blog/defi-insurance.html"> Read More </a>
+                                However, the innovative landscape of DeFi presents unique challenges, particularly...
                             </p>
+                            <button class="btn btn-sm btn-outline-secondary" type="button" name="button">
+                                <a href="blog/defi-insurance.html" class="icon-move-right text-sm">Read more
+                                </a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -256,7 +270,7 @@
         <div class="col-lg-4 ml-auto">
             <div class="pt-1 pb-5 position-sticky top-1 mt-lg-8 mt-5">
                 <h4>Newsletter</h4>
-                <p>Get access to subscriber exclusive deals and be the first who gets informed about fresh sales.</p>
+                <p class="text-white text-lighter">Get access to subscriber exclusive deals and be the first who gets informed about fresh sales.</p>
                 <button class="btn btn-lg btn-outline-primary" type="button" name="button">
                     <a href="http://eepurl.com/hMUaAr" target="_blank">
                         <span class="btn-inner--icon mx-sm-1"><i class="fa fa-envelope"></i></span>
@@ -278,7 +292,7 @@
                         <div class="col-lg-8 col-md-8 my-sm-auto mt-3">
                             <h5>
                                 <a href="https://nexusmutual.io/blog/the-easiest-way-to-protect-your-crypto-cover-from-nexus-mutual" target="_blank"
-                                   class="text-dark font-weight-normal">Cover from Nexus Mutual</a>
+                                   class="font-weight-normal">Cover from Nexus Mutual</a>
                             </h5>
                         </div>
                     </div>
@@ -297,7 +311,7 @@
                         <div class="col-lg-8 col-md-8 my-sm-auto mt-3">
                             <h5>
                                 <a href="https://medium.com/balancer-protocol/scaling-balancer-v3-whats-next-b9dcfe1def5f" target="_blank"
-                                   class="text-dark font-weight-normal">Scaling Balancer v3</a>
+                                   class="font-weight-normal">Scaling Balancer v3</a>
                             </h5>
                         </div>
                     </div>
@@ -315,7 +329,7 @@
                         </div>
                         <div class="col-lg-8 col-md-8 my-sm-auto mt-3">
                             <h5>
-                                <a href="https://www.gnosis.io/blog/introducing-gnosis-3-0" target="_blank" class="text-dark font-weight-normal">Introducing
+                                <a href="https://www.gnosis.io/blog/introducing-gnosis-3-0" target="_blank" class="font-weight-normal">Introducing
                                     Gnosis 3.0</a>
                             </h5>
                         </div>
